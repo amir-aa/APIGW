@@ -1,6 +1,8 @@
 
 # Flask API Gateway
 A high-performance API gateway built with Flask, designed to manage client connections, monitor API usage metrics, and implement basic rate-limiting and connection handling. The gateway logs application events, access, and errors with a rotating logging strategy and integrates middleware for enhanced request handling.
+![Logo](https://dl1.geekdownload.ir/greenapi.jpg)
+
 
 
 ## Features
@@ -22,7 +24,7 @@ ConnectionManager: Manages client connections, tracks metrics, and enforces conn
 
 APIGateway: Main application class for initializing the gateway, configuring logging, and managing middleware and error handling.
 
-## Acknowledgements
+## Structure
 
 .
 ├── app.py              # Main application file defining the gateway and routes.
