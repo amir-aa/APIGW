@@ -28,6 +28,7 @@ APIGateway: Main application class for initializing the gateway, configuring log
 
 .
 ├── app.py              # Main application file defining the gateway and routes.
+
 ├── logs/               # Folder for log files (created automatically).
 
 
